@@ -1,0 +1,7 @@
+
+		String email=request.getParameter("email");
+		String password=request.getParameter("password");
+		if(fname.equals("Aung") && lname.equals("Aung") && email.equals("aung@gmail.com") && password.equals("cumyeik")) {
+			RequestDispatcher rd=request.getRequestDispatcher("Welcome");
+			rd.forward(request, response);
+		

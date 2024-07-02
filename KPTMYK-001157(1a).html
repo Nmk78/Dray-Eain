@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1A</title>
+</head>
+<body>
+    <script>
+        var num= [-5,-2, -6, 0, -1];
+        var num1=-5;
+        var num2=-2;
+        var num3=-6;
+        var num4=0;
+        var num5=-1;
+
+        var largest;
+        
+        if(num1 >= num2 && num1 >= num3 && num1 >= num4 && num1 >= num5){
+            largest=num1;
+        }
+        else if(num2 >= num1 && num2 >= num3 && num2 >= num4 && num2 >= num5){
+            largest=num2;
+        }
+        else if(num3 >= num1 && num3 >= num2 && num3 >= num4 && num3 >= num5){
+            largest=num3;
+        }
+        else if(num4 >= num1 && num4 >= num2 && num4 >= num3 && num4 >= num5){
+            largest=num4;
+        }
+        else
+        {largest=num5;   
+        }
+
+        alert("The largest number is : " + largest);
+    </script>
+</body>
+</html>

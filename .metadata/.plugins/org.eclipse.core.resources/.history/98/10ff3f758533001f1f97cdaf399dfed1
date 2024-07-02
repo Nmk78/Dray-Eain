@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration</title>
+</head>
+<body>
+<form action="register" method="get">
+<table>
+<tr>
+<td>FirstName: </td>
+<td><input type="text" name="fname"></td>
+</tr>
+
+<tr>
+<td>LastName: </td>
+<td><input type="text" name="lname"></td>
+</tr>
+
+<tr>
+<td>Email: </td>
+<td><input type="email" name="email"></td>
+</tr>
+
+<tr>
+<td>Password: </td>
+<td><input type="password" name="password"></td>
+</tr>
+
+<tr>
+<td><input type="submit" value="Submit" name="btnsubmit"></td>
+<td><input type="reset" value="Cancel" value="btncancel"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
